@@ -50,12 +50,12 @@ _You **can** combine them_
 1. Item 1
 1. Item 2
 1. Item 3
-  1. Item 3a
-  1. Item 3b
+     + Item 3a
+     + Item 3b
 
 ## Images
 
-![This is a alt text.](/image/sample.png "This is a sample image.")
+![This is a alt text.](https://ssl.gstatic.com/translate/ic_android_googblue600_18dp.svg)
 
 ## Links
 
@@ -69,15 +69,24 @@ You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
 
 ## Tables
 
-| Left columns  | Right columns |
-| ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
-
-## Blocks of code
+The following Markdown:
 
 ```
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+```
+
+Is rendered as follows:
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+## Blocks of code
+
+```javascript
 let message = 'Hello world';
 alert(message);
 ```
